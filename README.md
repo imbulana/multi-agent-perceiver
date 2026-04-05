@@ -1,5 +1,25 @@
 Multi-Agent Perceiver[^1][^2] Critic for Robotic Warehouse [(RWARE)](https://github.com/semitable/robotic-warehouse.git) Tasks implemented in pymarlzooplus[^3].
 
+<table>
+  <thead>
+    <tr><th colspan="4" align="center">50k–8M rollouts (4ag-hard) </th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><img src="assets/4ag-hard/0.05M.gif" alt="50k" /></td>
+      <td align="center"><img src="assets/4ag-hard/2M.gif" alt="2M" /></td>
+      <td align="center"><img src="assets/4ag-hard/4M.gif" alt="4M" /></td>
+      <td align="center"><img src="assets/4ag-hard/8M.gif" alt="8M" /></td>
+    </tr>
+    <tr>
+      <td align="center">50k</td>
+      <td align="center">2M</td>
+      <td align="center">4M</td>
+      <td align="center">8M</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Setup
 
 See instructions for Docker [here](docker/README.md). Alternatively, create a conda environment with python 3.11
